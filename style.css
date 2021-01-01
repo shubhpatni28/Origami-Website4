@@ -1,0 +1,61 @@
+
+
+/* .site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+} */
+
+.menu{
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    font-size: 50px;
+    background-color: black;
+    padding: 15px;
+  }
+  /*
+*{
+    border: solid;
+} */
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 800px;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.grid img{
+    border:2px solid black;
+    border-radius:50px;
+}
+
+body{
+    margin: 25px;
+    background-color: #f7f2f2;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+.Origami:hover{
+    transform:scale(1.2) ;
+}
+
+a{
+    text-decoration: none;
+}
